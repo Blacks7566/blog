@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto+Mono:wght@100&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(27, 105, 136);
+    color: #f7f3f3;      
+
+}
+body{
+    background-color: rgb(230, 244, 242);
+}
+
+nav ul{
+    
+    display: flex;
+    justify-content: space-around;
+    height: 6vh;
+}
+nav ul li {
+display: inline-block;
+margin: 0px 25px;
+
+}
+nav ul li a {
+text-decoration: none;
+color: aliceblue;
+font-family: 'Quicksand', sans-serif;
+
+}
+
+article {
+
+    border: 0.5px solid rgb(192, 184, 184);
+    width: 45vw;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 16px;
+    margin: 11vh 28vw;
+
+}
+article hr { 
+    width: 42vw;
+}
+article div a { 
+    font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+        color:   #8ab4f8;
+        font-weight: bold; 
+    }
+
+.container{
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+    font-size: 12px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+small{
+    font-size: 11px;
+    font-family: 'Roboto Mono', monospace;
+
+}
